@@ -1,32 +1,53 @@
-name: Generate Snake
+# 👋 Hi, I'm Diksha Kumari
 
-on:
-  schedule:
-    - cron: "0 0 * * *" # Har raat 12 baje chalega
-  workflow_dispatch: # Taaki aap manual bhi chala sakein
-  push:
-    branches:
-      - main # Main branch par push hote hi chalega
+<img src="https://readme-typing-svg.herokuapp.com?color=F78C6C&size=22&center=true&vCenter=true&width=500&lines=MERN+Stack+Developer;Java+DSA+Learner;Building+Projects+Daily;Future+Software+Engineer" />
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write # Ye line bahut zaroori hai files update karne ke liye
+---
 
-    steps:
-      - uses: actions/checkout@v3
+## 🚀 About Me
+- 🌱 Currently learning **MERN Stack & DSA (Java)**
+- 💡 Love building real-world projects  
+- 📚 Improving problem-solving skills daily  
+- 🎯 Goal: Become a Software Developer  
 
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: deeksha0023
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+---
 
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+## 🛠️ Tech Stack
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,mysql,java,git,github,vscode" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+![trophy](https://github-profile-trophy.vercel.app/?username=deeksha0023&theme=onedark)
+
+---
+
+## 📊 GitHub Stats
+![Diksha's GitHub stats](https://github-readme-stats.vercel.app/api?username=deeksha0023&show_icons=true&theme=tokyonight)
+
+---
+
+## 🔥 GitHub Streak
+![GitHub Streak](https://streak-stats.demolab.com?user=deeksha0023&theme=tokyonight)
+
+---
+
+## 📊 Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=deeksha0023&layout=compact&theme=tokyonight)
+
+---
+
+## 🐍 Contribution Snake
+![snake gif](https://raw.githubusercontent.com/deeksha0023/deeksha0023/output/github-contribution-grid-snake.svg)
+
+---
+
+## 🌐 Connect With Me
+- 💼 LinkedIn: https://www.linkedin.com/in/deeksha-yadav-b13698281/  
+- 🧠 LeetCode: https://leetcode.com/u/Deeksha__Yadav/  
+
+---
+
+✨ “Code. Learn. Build. Repeat.” 🔁
