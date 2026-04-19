@@ -2,20 +2,27 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Har raat 12 baje chalega
+  workflow_dispatch: # Taaki aap manual bhi chala sakein
+  push:
+    branches:
+      - main # Main branch par push hote hi chalega
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Ye line bahut zaroori hai files update karne ke liye
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: Platane/snk@v3
         with:
           github_user_name: deeksha0023
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
@@ -23,5 +30,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-# update
