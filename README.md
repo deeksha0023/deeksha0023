@@ -34,7 +34,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
+
 ## 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=deeksha0023&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
