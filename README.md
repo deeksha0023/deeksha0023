@@ -18,9 +18,8 @@
 </p>
 
 ---
-
-## 📊 GitHub Stats
-![Diksha's GitHub stats](https://github-readme-stats.vercel.app/api?username=deeksha0023&show_icons=true&theme=tokyonight)
+## 🏆 GitHub Trophies
+![trophy](https://github-profile-trophy-tawny.vercel.app/?username=deeksha0023&theme=onedark)
 
 ---
 
